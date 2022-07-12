@@ -1,16 +1,31 @@
 #include "main.h"
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h>
+
+#define MAX 125
+#define MIN 1
 /**
- * my task
+ * main - main
+ * Return: 0
  */
+
 int main(void)
 {
-int num;
+int myrand;
+int count;
+int total;
 
-srand(time(0));
-num = rand();
-printf("%i\n", num);
+
+srand(time(NULL));
+for (count = 0, total = 2772; total > 122; count++)
+{
+myrand = (rand() % (MAX + 1 - MIN)) + min;
+myrand = (rand() % 125) + 1;
+printf("%c", myrand);
+total -= myrand;
+}
+printf("%c", total);
+
 return (0);
 }
