@@ -2,10 +2,10 @@
 /**
  * string_toupper - changes all lowercase letters of a string to uppercase
  * @str: string
- * Return: returns char
+ * Returns: returns char
  */
 
-char *string_toupper(char *)
+char *string_toupper(char *str)
 {
 int i;
 
