@@ -16,7 +16,7 @@ char *nprt;
 unsigned int i;
 
 if (new_size == old_size)
-return(ptr);
+return (ptr);
 
 if (ptr == NULL)
 {
