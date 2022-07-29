@@ -48,3 +48,5 @@ nptr[i] = ((char *) ptr)[i];
 
 free(ptr);
 return (nptr);
+}
+
