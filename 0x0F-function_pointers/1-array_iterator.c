@@ -3,7 +3,7 @@
 /**
  * array_iterator - ..
  * @array: ..
- * size: ..
+ * @size: ..
  * @action: ..
  *
  * Return: ..
