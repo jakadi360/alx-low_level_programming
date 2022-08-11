@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void first(void) _ _attribute_ _ ((constructor));
+void first(void) __attribute___ ((constructor));
 
 /**
  * first - ..
