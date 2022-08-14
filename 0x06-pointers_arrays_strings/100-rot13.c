@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * roti13 - ..
+ * rot13 - ..
  * @s: ..
  *
  * Return: ..
