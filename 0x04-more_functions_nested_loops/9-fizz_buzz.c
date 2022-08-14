@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * main - prints afizz buzz program
+ * main - prints a Fizz Buzz program
  *
- * Return: Always 0
+ * Return: Always 0 (success)
  */
 int main(void)
 {
@@ -14,15 +14,15 @@ for (x = 1; x <= 100; x++)
 {
 if ((x % 3 == 0) && (x % 5 == 0))
 {
-printf("fizzbuzz");
+printf("FizzBuzz");
 }
 else if (x % 3 == 0)
 {
-printf("fizz");
+printf("Fizz");
 }
 else if (x % 5 == 0)
 {
-printf("buzz");
+printf("Buzz");
 }
 else
 {
