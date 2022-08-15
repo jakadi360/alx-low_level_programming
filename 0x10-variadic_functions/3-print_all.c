@@ -67,11 +67,11 @@ printf("%s%i, separator, va_arg(args, int));
 }
 
 /**
- * print_a_float - prints a character of float type
- * @separator: the separator of the character
- * @args: a list of variadict arguments
+ *print_a_float - prints a character of float type
+ *@separator: the separator of the character
+ *@args: a list of variadict arguments
  *
- * Return: nothing
+ *Return: nothing
  */
 void print_a_float(char *separator, va_list args)
 {
@@ -91,9 +91,9 @@ char *arg = va_arg(args, char *);
 
 if (arg == NULL)
 {
-printf("%s%s", separator, "(nil)");
+printf(" %s%s ", separator, "(nil)");
 return;
 }
 
-printf("%s%s", separator, arg);
+printf(" %s%s ", separator, arg);
 }
