@@ -1,12 +1,12 @@
 #include "main.h"
 
-int check_palindrome(char *s);
+int is_palindrome(char *s);
 
 /**
- * is_palindrome - Returns if a string is palindrome
+ * is_palindrome - returns if a string is palindrome
  * @s: the string value to be checked
  *
- * Return: integer value
+ * return: integer value
  */
 int is_palindrome(char *s)
 {
@@ -20,7 +20,7 @@ return (check_palindrome(s));
  * check_palindrome - check if a string is palindrome
  * @s: the string value to be checked
  *
- * Return: integer value
+ * return: integer value
  */
 int check_palindrome(char *s)
 {
@@ -40,10 +40,10 @@ return (1);
 }
 
 /**
- * _strlen_recursion - Get the length of a string
+ * _strlen_recursion - get the length of a string
  * @s: the string to get the length
  *
- * Return: the string length
+ * return: the string length
  */
 int _strlen_recursion(char *s)
 {
