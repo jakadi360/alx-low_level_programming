@@ -6,8 +6,8 @@
  * @n: the bit
  * @index: the index to get the value at - indices start at 0
  *
- * return: if an error occurs - -1
- *         otherwise - the value of bit at index
+ * Return: if an error occurs - -1
+ * otherwise - the value of bit at index
  */
 int get_bit(unsigned long int n, unsigned int index)
 {
