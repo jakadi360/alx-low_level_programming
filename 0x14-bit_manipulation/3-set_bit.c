@@ -5,7 +5,7 @@
  * @n: a pointer to the bit
  * @index: the index to set the value at - indices start at 0
  *
- * return: if an error occurs - -1
+ * Return: if an error occurs - -1
  *         otherwise -1
  */
 int set_bit(unsigned long int *n, unsigned int index)
